@@ -1,7 +1,7 @@
 from fileinput import filename
 from os import access 
 from prompt_toolkit import prompt
-import openai, tweepy, random, accessapi, time, train, quotes
+import openai, tweepy, random, accessapi, time, train
 
 client = tweepy.Client(consumer_key = accessapi.api_key, consumer_secret= accessapi.api_key_secret, access_token = accessapi.access_token, access_token_secret =accessapi.access_token_secret)
 auth = tweepy.OAuthHandler(consumer_key = accessapi.api_key, consumer_secret= accessapi.api_key_secret, access_token = accessapi.access_token, access_token_secret =accessapi.access_token_secret)
